@@ -1,0 +1,17 @@
+{
+  "name": "vite-todolist",
+  "version": "1.0.0",
+  "description": "An example todolist in vite",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "pkodmad",
+  "license": "ISC",
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "vite": "^2.0.4"
+  }
+}

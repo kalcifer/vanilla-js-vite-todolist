@@ -1,0 +1,9 @@
+section {
+    display: grid;
+    place-content: center;
+}
+
+button {
+    width: 150px;
+    background: pink
+}

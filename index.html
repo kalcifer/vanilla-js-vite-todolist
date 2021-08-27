@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Vite Todolist</title>
+        <link rel='stylesheet' href='./styles.css'>
+    </head>
+    <body>
+        <script type='module'>
+            import main from './index';
+            document.addEventListener('DOMContentLoaded', main)
+        </script>
+        <section>
+            <h1>Todolist</h1>
+            <input type='text' id='newTodo' placeholder="Write a new todo"/>
+            <ul id='todos'>
+                
+            </ul>
+            <button id='addTodo'>Add Todo</button>
+        </section>
+    </body>
+</html>
